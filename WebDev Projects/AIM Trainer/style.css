@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 70vh;
+    letter-spacing: 10px;
+}
+body{
+    background-color: hsl(0, 0%, 10%);
+}
+#target{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 100%, 60%);
+    position: absolute;
+}
+#target:active{
+    background-color: hsl(120, 100%, 60%);
+}
+#score{
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+    font-family: monospace;
+    display: block;
+    position: sticky;
+}
+
+#reset{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    background-color: hsl(0, 0%, 50%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 50px;
+}
+#reset:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
