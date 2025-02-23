@@ -1,0 +1,39 @@
+body{
+    margin: 5vh;
+}
+
+
+#spriteBox{
+    width: 300px;
+    height: 250px;
+    display: block;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 0 5px black;
+    background-color: hwb(0 100% 5%);
+}
+input{
+    margin-top: 2vh;
+    border: none;
+    background-color: hsl(51, 100%, 50%);
+    height: 25px;
+    width: 25vh;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+
+button{
+    background-color: hsl(0, 100%, 60%);
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 0 2px black;
+    border-radius: 10px;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: hsl(0, 100%, 40%);
+}
